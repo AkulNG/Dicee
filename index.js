@@ -33,11 +33,11 @@ if(randomNumber2 === 1){
 }
 
 if(randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerText = "Player 1 wins!!";
+    document.querySelector("h1").innerText = "🚩 Player 1 wins!!";
 } else if(randomNumber1 === randomNumber2){
     document.querySelector("h1").innerText = "It's a draw!!";
 } else if(randomNumber1 < randomNumber2){
-    document.querySelector("h1").innerText = "Player 2 wins!!";
+    document.querySelector("h1").innerText = "Player 2 wins!!🚩";
 }else{
     document.querySelector("h1").innerText = "Refresh 2 Play!!";
 }
